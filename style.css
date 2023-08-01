@@ -128,5 +128,10 @@ b {
 }
 
 aside {
+	height: 100vh;
+	background: gray;
+}
 
+aside .top {
+	background: white;
 }
