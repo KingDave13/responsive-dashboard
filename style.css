@@ -187,3 +187,9 @@ aside .sidebar a:last-child {
 	bottom: 2rem;
 	width: 100%;
 }
+
+aside .sidebar a.active {
+	background: var(--color-light);
+	color: var(--color-primary);
+	margin-left: 0;
+}
