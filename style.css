@@ -139,3 +139,14 @@ aside .top {
 	justify-content: space-between;
 	margin-top: 1.4rem;
 }
+
+
+aside .logo {
+	display: flex;
+	gap: 0.8rem;
+}
+
+aside .logo img {
+	width: 2rem;
+	height: 2rem;
+}
