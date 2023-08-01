@@ -36,11 +36,11 @@
 	box-sizing: border-box;
 }
 
-html{
+html {
 	font-size: 14px;
 }
 
-body{
+body {
 	width: 100vw;
 	height: 100vh;
 	font-family: poppins, sans-serif;
@@ -49,3 +49,18 @@ body{
 	user-select: none;
 	overflow-x: hidden;
 }
+
+a {
+	color: var(--color-dark);
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+h1 {
+	font-size: 1.8rem;
+	font-weight: 800;
+}
+
