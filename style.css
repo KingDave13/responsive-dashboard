@@ -50,6 +50,15 @@ body {
 	overflow-x: hidden;
 }
 
+.container {
+	display: grid;
+	width: 96%;
+	margin: 0 auto;
+	background: red;
+	gap: 1.8rem;
+	grid-template-columns: 14rem;
+}
+
 a {
 	color: var(--color-dark);
 }
@@ -105,4 +114,20 @@ b {
 
 .primary {
 	color: var(--color-primary);
+}
+
+.danger {
+	color: var(--color-danger);
+}
+
+.success {
+	color: var(--color-success);
+}
+
+.warning {
+	color: var(--color-warning);
+}
+
+aside {
+
 }
