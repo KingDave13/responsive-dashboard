@@ -127,6 +127,9 @@ b {
 	color: var(--color-warning);
 }
 
+
+/*===========ASIDE STYLING==========*/
+
 aside {
 	height: 100vh;
 }
@@ -220,3 +223,5 @@ aside .sidebar .message-count {
 	font-size: 11px;
 	border-radius: var(--border-radius-1);
 }
+
+/*===========MAIN STYLING==========*/
