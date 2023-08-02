@@ -349,3 +349,14 @@ main .insights small {
 main .recent-orders {
 	margin-top: 2rem;
 }
+
+main .recent-orders h2 {
+	margin-bottom: 0.8rem;
+}
+
+main .recent-orders table {
+	background: var(--color-white);
+	width: 100%;
+	border-radius: var(--card-border-radius);
+	padding: var(--card-padding);
+}
