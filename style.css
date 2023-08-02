@@ -254,7 +254,7 @@ main .insights > div {
 	background: var(--color-white);
 	padding: var(--card-padding);
 	border-radius: var(--card-border-radius);
-	margin-top: 1rem;
+	margin-top: 2rem;
 	box-shadow: var(--box-shadow);
 	transition: all 300ms ease;
 }
@@ -337,4 +337,9 @@ main .insights .progress .number {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+main .insights small {
+	margin-top: 1.6rem;
+	display: block;
 }
