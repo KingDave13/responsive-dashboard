@@ -359,4 +359,11 @@ main .recent-orders table {
 	width: 100%;
 	border-radius: var(--card-border-radius);
 	padding: var(--card-padding);
+	text-align: center;
+	box-shadow: var(--box-shadow);
+	transition: all 300ms ease;
+}
+
+main .recent-orders table:hover {
+	box-shadow: none;
 }
