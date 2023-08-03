@@ -385,6 +385,8 @@ main .recent-orders a {
 	color: var(--color-primary);
 }
 
+/* ================= RECENT UPDATES ================*/
+
 .right {
 	margin-top: 1.4rem;
 }
@@ -456,4 +458,22 @@ main .recent-orders a {
 	grid-template-columns: 2.6rem auto;
 	gap: 1rem;
 	margin-bottom: 1rem;
+}
+
+/* ================= SALES ANALYTICS ===============*/
+
+.right .sales-analytics {
+	margin-top: 2rem;
+}
+
+.right .sales-analytics h2 {
+	margin-bottom: 0.8rem;
+}
+
+.right .sales-analytics .item {
+	background: var(--color-white);
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 0.7rem;
 }
