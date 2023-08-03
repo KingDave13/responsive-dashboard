@@ -384,3 +384,13 @@ main .recent-orders a {
 	margin: 1rem auto;
 	color: var(--color-primary);
 }
+
+.right {
+	margin-top: 1.4rem;
+}
+
+.right .top {
+	display: flex;
+	justify-content: end;
+	gap: 2rem;
+}
