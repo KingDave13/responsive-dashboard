@@ -501,3 +501,11 @@ main .recent-orders a {
 	display: flex;
 	background: var(--color-primary);
 }
+
+.right .sales-analytics .item.offline .icon {
+	background: var(--color-danger);
+}
+
+.right .sales-analytics .item.customers .icon {
+	background: var(--color-success);
+}
