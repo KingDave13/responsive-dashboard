@@ -404,8 +404,8 @@ main .recent-orders a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 1.6rem;
-	width: 4.2rem;
+	height: 2rem;
+	width: 5.2rem;
 	cursor: pointer;
 	border-radius: var(--border-radius-1);
 }
@@ -417,4 +417,10 @@ main .recent-orders a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.right .theme-toggler span.active {
+	background: var(--color-primary);
+	color: white;
+	border-radius: var(--border-radius-1);
 }
