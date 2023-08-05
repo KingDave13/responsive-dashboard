@@ -567,4 +567,12 @@ main .recent-orders a {
 		grid-template-columns: 1fr;
 		gap: 0;
 	}
+
+	main .recent-orders {
+		width: 94%;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		margin: 2rem 0 0 8.8rem;
+	}
 }
