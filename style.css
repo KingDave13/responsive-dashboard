@@ -605,6 +605,7 @@ main .recent-orders a {
 		box-shadow: 1rem 3rem 4rem var(--color-light);
 		height: 100vh;
 		padding-right: var(--card-padding);
+		display: none;
 	}
 
 	aside .logo {
@@ -627,5 +628,10 @@ main .recent-orders a {
 	aside .sidebar a:last-child {
 		position: absolute;
 		bottom: 5rem;
+	}
+
+	aside .close {
+		display: inline-block;
+		cursor: pointer;
 	}
 }
