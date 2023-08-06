@@ -588,3 +588,9 @@ main .recent-orders a {
 		display: none;
 	}
 }
+
+/*===========BREAKPOINT2==========*/
+
+@media and screen (max-width: 768px) {
+	
+}
