@@ -606,14 +606,11 @@ main .recent-orders a {
 		box-shadow: 1rem 3rem 4rem var(--color-light);
 		height: 100vh;
 		padding-right: var(--card-padding);
-		display: none;
-		animation: showMenu 400ms ease forwards;
+		transition: left 400ms ease;
 	}
 
-	@keyframes showMenu {
-		to {
-			left: 0;
-		}
+	.show {
+		left: 0;
 	}
 
 	aside .logo {
