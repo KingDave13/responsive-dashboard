@@ -539,6 +539,8 @@ main .recent-orders a {
 
 .right .sales-analytics .add-product:hover {
 	cursor: pointer;
+	background: var(--color-primary);
+	color: white;
 }
 
 .right .sales-analytics .add-product div {
